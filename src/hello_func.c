@@ -2,7 +2,7 @@
 
 int print_hello()
 {
-    PRINT("Hello, World!")
+    PRINT("Hello, World!");
 
     return 0;
 }
