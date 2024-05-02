@@ -5,3 +5,6 @@
 
 /* Hello function */
 int print_hello();
+
+/* Bye function */
+int print_bye();

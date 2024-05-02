@@ -11,7 +11,7 @@ LIBS=-lm
 _DEPS = common.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = hello_func.o main.o
+_OBJ = bye_func.o hello_func.o main.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 $(ODIR)/%.o: $(SRCDIR)/%.c $(DEPS)
